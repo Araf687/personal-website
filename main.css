@@ -3,9 +3,6 @@ body{
     padding:0px;
     font-family: 'Open Sans', sans-serif;
 }
-section{
-    margin-bottom: 100px;
-}
 ul{
     float:right;
     margin-right: 10%;
@@ -35,6 +32,7 @@ ul li a{
     margin-bottom: 50px;
 }
 section{
+    height: 500px;
     margin-bottom:100px;
 }
 .button-hire{
@@ -47,22 +45,69 @@ section{
 
 }
 .half-width{
-    widows: 40%;
+    width: 40%;
     float: left;
     margin-left: 5%;
-    padding:3%;
+    padding:2%;
 }
-.half-width h1{
+h1{
     color:#363958;
     font-size: 50px;
     font-weight: bold;
 }
 img{
-    height: 450px;
-    width: 450px;
+    height: 500px;
+    width: 500px;
 }
 p{
-    color:dimgray;
-    font-size: 20px;
+    color:rgb(73, 72, 72);
+    font-size: 16px;
     font-weight: bold;
 }
+span{
+    color:tomato;
+}
+.text-center{
+    text-align: center;
+}
+.latest-project{
+    background-color: whitesmoke;
+    height: 550px;
+    padding: 3%;
+}
+.one-third{
+    height:300px;
+    width: 25%;
+    background-color:white;
+    float:left;
+    margin-left: 3%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+}
+.project-image{
+    height: 200px;
+    width: 95%;
+}
+h3{
+    color:#363958;
+    font-weight: bold;
+    font-size: 25px;
+}
+.inquiry-box{
+    text-align: center;
+}
+#inquiry-image{
+    height: 200px;
+    width:60%;
+    text-align: center;
+}
+.inquiry-text{
+    text-align: center;
+   
+ }
+
+}
+/* .inquiry-text ul li a{
+    color: red;
+} */
