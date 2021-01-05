@@ -1,0 +1,29 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+ul{
+    float:right;
+    margin-right: 5%;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:5px;
+    margin-right: 20px;
+}
+ul li:hover{
+    background-color:#ff8367;
+    border-radius: 5px;
+    color: white;
+
+}
+ul li a:hover{
+    /* color: white; */
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(41, 40, 40);
+    font-weight: bold;
+}
