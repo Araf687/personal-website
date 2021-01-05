@@ -1,20 +1,20 @@
 body{
     margin:0px;
     padding:0px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 section{
     margin-bottom: 100px;
 }
 ul{
     float:right;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 ul li{
     list-style-type: none;
     display: inline-block;
     padding:5px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 ul li:hover{
     background-color:#ff8367;
@@ -28,5 +28,41 @@ ul li a:hover{
 ul li a{
     text-decoration: none;
     color:rgb(41, 40, 40);
+    font-weight: bold;
+}
+.nav-bar{
+    height:60px;
+    margin-bottom: 50px;
+}
+section{
+    margin-bottom:100px;
+}
+.button-hire{
+    padding: 10px;
+    background-color: #ff8367;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.half-width{
+    widows: 40%;
+    float: left;
+    margin-left: 5%;
+    padding:3%;
+}
+.half-width h1{
+    color:#363958;
+    font-size: 50px;
+    font-weight: bold;
+}
+img{
+    height: 450px;
+    width: 450px;
+}
+p{
+    color:dimgray;
+    font-size: 20px;
     font-weight: bold;
 }
