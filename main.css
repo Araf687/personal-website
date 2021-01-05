@@ -3,6 +3,9 @@ body{
     padding:0px;
     font-family: 'Fira Sans', sans-serif;
 }
+section{
+    margin-bottom: 100px;
+}
 ul{
     float:right;
     margin-right: 5%;
