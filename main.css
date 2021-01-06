@@ -23,6 +23,7 @@ ul li{
 }
 ul li:hover a{
     color: white;
+    
 }
 ul li a{
     color:rgb(41, 40, 40);
@@ -47,6 +48,7 @@ section{
 .button-link:hover{
     color: #32355c;
     background-color:#f6a560;
+    font-weight: bold;
 }
 .half-width{
     width: 40%;
