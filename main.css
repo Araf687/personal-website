@@ -3,7 +3,9 @@ body{
     padding:0px;
     font-family: 'Open Sans', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 .nav-bar ul{
     float:right;
     margin-right: 10%;
@@ -23,7 +25,6 @@ ul li:hover a{
     color: white;
 }
 ul li a{
-    text-decoration: none;
     color:rgb(41, 40, 40);
 }
 .nav-bar{
@@ -58,8 +59,7 @@ h1{
     font-size: 50px;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
-    padding:0px;
-    margin: 0px;
+
 }
 img{
     height: 500px;
@@ -78,11 +78,11 @@ span{
 }
 .latest-project{
     background-color: whitesmoke;
-    height: 550px;
-    padding: 3%;
+    height: 600px;
+    padding: 2%;
 }
 .one-third{
-    height:300px;
+    height:330px;
     width: 25%;
     background-color:white;
     float:left;
@@ -101,21 +101,23 @@ h3{
     font-size: 25px;
 }
 .inquiry-box{
-    text-align: center;
+    height: 260px;
+    width: 70%;
+    background-image: url(img/inquiry.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    margin-left: 15%;
 }
-#inquiry-image{
-    height: 175px;
-    width:55%;
-    text-align: center;
+.inquiry-box h1{
+    display: inline-block;
+    color:white;
+    padding:5%;
+    margin-right: 46%;
 }
-.inquiry-text{
-    text-align: center;
-    position: relative;
-    bottom:145px;
-   
- }
  footer{
      text-align: center;
+     
  }
  #icon-footer ul li a img{
      height:40px;
